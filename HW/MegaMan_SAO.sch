@@ -61,17 +61,6 @@ $EndComp
 Connection ~ 3800 3490
 Wire Wire Line
 	3800 3300 3800 3490
-$Comp
-L Device:LED D6
-U 1 1 5CE02191
-P 5770 3640
-F 0 "D6" V 5809 3523 50  0000 R CNN
-F 1 "YLW_LED" H 5780 3780 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 5770 3640 50  0001 C CNN
-F 3 "~" H 5770 3640 50  0001 C CNN
-	1    5770 3640
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3800 3790 3800 4000
 Wire Wire Line
@@ -177,17 +166,6 @@ Wire Wire Line
 Connection ~ 3800 3000
 Wire Wire Line
 	3800 3000 4790 3000
-$Comp
-L Device:R R3
-U 1 1 5D03D6F5
-P 5770 3180
-F 0 "R3" H 5840 3226 50  0000 L CNN
-F 1 "50R" H 5840 3135 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5700 3180 50  0001 C CNN
-F 3 "~" H 5770 3180 50  0001 C CNN
-	1    5770 3180
-	1    0    0    -1  
-$EndComp
 Connection ~ 5050 3490
 Connection ~ 5050 3000
 Wire Wire Line
@@ -213,6 +191,28 @@ Wire Wire Line
 	5050 3000 5770 3000
 Wire Wire Line
 	5770 3000 5770 3030
+$Comp
+L Device:LED D6
+U 1 1 5CE02191
+P 5770 3640
+F 0 "D6" V 5809 3523 50  0000 R CNN
+F 1 "YLW_LED" H 5780 3780 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm" H 5770 3640 50  0001 C CNN
+F 3 "~" H 5770 3640 50  0001 C CNN
+	1    5770 3640
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	5770 3490 5770 3330
+$Comp
+L Device:R R3
+U 1 1 5D03D6F5
+P 5770 3180
+F 0 "R3" H 5840 3226 50  0000 L CNN
+F 1 "50R" H 5840 3135 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5700 3180 50  0001 C CNN
+F 3 "~" H 5770 3180 50  0001 C CNN
+	1    5770 3180
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
