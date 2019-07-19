@@ -152,7 +152,7 @@ Wire Wire Line
 	4270 3790 4270 4000
 Connection ~ 4270 4000
 Wire Wire Line
-	4270 4000 5210 4000
+	4270 4000 4750 4000
 $Comp
 L Device:LED D3
 U 1 1 5D32E754
@@ -185,4 +185,7 @@ Wire Wire Line
 Connection ~ 5210 4000
 Wire Wire Line
 	5210 4000 5770 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 5210 4000
 $EndSCHEMATC
